@@ -1,14 +1,20 @@
 body {
 	background-color: #2d2d2d;
-	font-family: 'Courier New', Courier, monospace;
-	color: #c2c2c2;
+	font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
+	color: #909090;
 }
+
 .header {
 	width:100%;
 }
 
 .header img {
 	width:100%;
+}
+
+.subheader h1 {
+	font-size:48px;
+	letter-spacing:.3em;
 }
 
 .header-images {
@@ -47,6 +53,13 @@ body {
 .paper-inner {
 	background-color:  #efefef;
 	padding: 20px;
+	top: -5px;
+  position: relative;
+}
+
+img.paper-edges-bottom {
+	top: -5px;
+	position: relative;
 }
 
 h1 {
