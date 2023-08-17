@@ -26,7 +26,7 @@ a:hover {
 }
 
 .header-images {
-	height: 20vw;
+	height: 23vw;
 }
 
 .image-container {
@@ -42,16 +42,22 @@ a:hover {
 
 .image-container.one {
 	width: 30%;
+	top: -10%;
+	position: relative;
+	margin-right: 4%;
 	transform: rotate(5deg);
 }
 
 .image-container.two {
 	width: 30%;
+	top: -10%;
+	position: relative;
+	margin-right: 4%;
 	transform: rotate(-5deg);
 }
 
 .image-container.three {
-	width: 37%;
+	width: 25%;
 	transform: rotate(8deg);
 }
 
